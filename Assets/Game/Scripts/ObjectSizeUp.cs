@@ -6,8 +6,8 @@ public class ObjectSizeUp : MonoBehaviour
 {
     [SerializeField] private float _sizeUpSpeed;
 
-    private void FixedUpdate()
+    private void Update()
     {
-        transform.localScale += new Vector3(_sizeUpSpeed, _sizeUpSpeed, _sizeUpSpeed);
+        transform.localScale += new Vector3(_sizeUpSpeed, _sizeUpSpeed, _sizeUpSpeed) * Time.deltaTime;
     }
 }
