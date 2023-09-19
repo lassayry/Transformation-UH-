@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectSizeUp : MonoBehaviour
+public class ObjectSizeUpper : MonoBehaviour
 {
     [SerializeField] private float _sizeUpSpeed;
 
